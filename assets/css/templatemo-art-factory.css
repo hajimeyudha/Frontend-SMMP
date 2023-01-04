@@ -1461,10 +1461,47 @@ preloader
 /* gas-info */
 
 #gas-info .container .col {
+  position: relative;
   width: 100%;
   background-image: url(../images/HalamanAwal.png);
   height: 938px;
 }
+
+/* yuk kita mulai GAS SECTION */
+
+
+#gas-info .card {
+  position: absolute;
+  margin-top: 15%;
+  border-radius: 5px;
+  background-color: #3DE22E;
+}
+
+#gas-info .btn-info {
+  
+}
+
+#gas-info .btn-kiri {
+  position: absolute;
+  margin-top: 25%;
+  left: 25%;
+  display: flex;
+}
+
+#gas-info .btn-kanan {
+  position: absolute;
+  margin-top: 48%;
+  right: -70%;
+  display: flex;
+}
+
+#gas-info .card-title, .card-text, .btn, .card-body {
+
+  margin: 10px auto;
+}
+
+/* END OF GAS SECTION */
+
 /* kalo ini atasnya footer */
 
 .footer-upper {
